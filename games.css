@@ -1,0 +1,55 @@
+body {
+    max-width: 1300px;
+    margin: auto;
+    justify-content: center;
+    background-image: url(C:\Users\mafet\OneDrive\Documents\NGEE ANN POLY\YEAR 1\SEM 2\ID code\ID games page.png);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: repeat;
+}
+#firstButton {
+    margin: 50px 0px;
+    max-width: 300px;
+}
+.rapper{
+    border: 5px;
+    border-color: cornflowerblue;
+}
+.rapper h1{
+    padding: 20px 100px 30px 10px;
+
+}
+#backButton{
+    padding: 2px;
+    color: cornflowerblue;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+header{
+    margin:0px;
+}
+h3 {
+    font-family: 'Share tech';
+    font-weight: bold;
+    color: #0A5EFF;
+    max-width: 200px;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 50px 1100px 50px 0px;
+}
+@font-face {
+    font-family: 'Share tech';
+    src: url(Sharetech-Regular.ttf);
+}
+ul {
+    list-style-type: none;
+}
+img:hover{
+    opacity: 0.6;
+}
+.gameslist {
+
+}
+

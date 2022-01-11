@@ -1,0 +1,174 @@
+header{
+    padding: 20px 0 30px; /*REMINDER: 4-value padding is bottom is top-right-bot-left*/ 
+    margin-bottom: 30px;   /*3-value is top-(left&right)-bot*/ 
+    background: transparent url() no-repeat;  /*2-value is (top&bot)-(left&right)*/
+}
+body {
+    justify-content: center;
+    margin: auto;
+    max-width: 1300px;
+    background-image: url();
+    background-position: top center;
+    background-attachment: fixed;
+}
+h1 {
+    font-weight: bold;
+}
+/*navigation bar script*/
+.topbar {
+    
+    border-bottom: 1px;
+    border-color: darkgrey;
+    background:transparent url() left 0 no-repeat;
+    width: 95%;
+    max-width: 1100 px;
+    margin: auto;
+    display: inline-block;
+    font-family: 'Share tech';
+    font-size: 25px;
+}
+
+    .topbar h1 {
+        float: left;
+        text-align: left;
+    }
+    .topbar a {
+        border-right: 1px;
+        border-color: aquamarine;
+        margin-top: 20px;
+        margin: 0 8px;
+        float: left;
+        color: #0A5EFF;
+        text-align: center;
+        margin-right: 16px;
+        text-decoration: none;
+        font-size: 18px;
+        border-right: 1px solid #80C0F7;
+    }
+        #rest:hover {
+            border-bottom: 2px solid #0A5EFF;
+        }
+
+
+    @media screen and (max-width: 1000px) { /*responsiveness thing*/
+        .topbar a {
+            float: none;
+            display: block;
+        }
+    }
+    /*fonting*/
+#companyLogo { /*change to h1???*/
+  font-family: 'Share tech'; /*Share Tech Mono unable to show idk why*/
+  font-size: 30px;
+  color: dodgerblue;
+  background-color: blue;
+  border: 1px;
+
+
+}
+@font-face{
+    font-family: 'Share tech';
+    src: url(Sharetech-Regular.ttf)
+}
+@font-face{
+    font-family: 'Roboto Black';
+    src: url(Roboto-Black.ttf)
+}
+/*image files on site*/
+img {
+    max-width: 500%;
+    height: auto;
+    vertical-align: bottom;
+    -webkit-border-radius: solid 5px #46AAFF;
+    border: solid 5px 8BC9FF;
+    position: relative;
+
+}
+img:hover {
+    opacity: 0.6;
+    border-color: transparent;
+}
+/*Banner images*/
+.bannerarea {
+    margin: 0px 40px;
+    max-width: 1100px;
+}
+ul.bannerarea {
+    list-style-type: none;
+    padding: 0px 40px;
+}
+.bigbanner {
+    float: left;
+    display: inline-block;
+    border: 1px solid #80C0F7;
+    justify-content: center;
+    margin: 20px;
+}
+#rest { /*contents of the topbar except for logo*/
+    margin-top: 20px;
+    padding-right: 16px;
+}
+.longbanner{ /*to be modified*/
+    float: left;
+    margin: 20px 0px;
+
+}
+.smallbanner{ /*to be modified*/
+    float: left;
+    margin: 20px 20px 50px 20px;
+    display: inline-block;
+    justify-content:center;
+}
+
+
+.links {
+    display: block;
+    float: right;
+    padding: 30px 30px 30px 0px;
+    margin: 50px 10px 50px 20px;
+    font-family: 'Roboto Black';
+}
+.links a{
+    padding: 40px 50px;
+    text-align: center;
+    margin: 3px;
+    border: solid 2px #78A8D1;
+    border-radius: 3px;
+    text-decoration-line: none;
+    color: #78A8D1;
+    font-size: 30px;
+    background-color: white;
+    display: inline;
+}
+.links a:hover {
+    background-color: cornflowerblue;
+    color: #D1EAFF;
+}
+
+.infobox #contact{
+    margin-bottom 30px;
+}
+/*social links segment*/
+.socialLink{
+    justify-content: center;
+    marigin: 50px 0px;
+    display: inline;
+}
+.social {
+    float: left;
+}
+
+/**/
+
+.infoBox{
+    margin: 0px 40px 0px 200px;
+    padding: 10px;
+    border: 5px thin grey;
+    float: left;
+}
+form{
+    color:#78A8D1 ;
+    font-family: 'Share tech';
+    font-size: 15px;
+    padding: 0 50px 0px 90px;
+}
